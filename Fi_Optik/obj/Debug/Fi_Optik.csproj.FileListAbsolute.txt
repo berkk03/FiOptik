@@ -16,3 +16,12 @@ C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\D
 C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.satis_islemleri.resources
 C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.yeni_satis.resources
 C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.musteri_ekle.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.yeni_personel_kayıt.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.urun_arama.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.bilgileri_duzenle.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.firma_tanimlari.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.genel_raporlar.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.gelir_gider.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.personel_tanimlari.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.yenipersonel_kayit.resources
+C:\Users\Berk Kaya\documents\visual studio 2013\Projects\Fi_Optik\Fi_Optik\obj\Debug\Fi_Optik.izinler.resources

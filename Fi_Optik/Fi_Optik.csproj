@@ -11,6 +11,21 @@
     <AssemblyName>Fi_Optik</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,11 +60,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="bilgileri_duzenle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="bilgileri_duzenle.Designer.cs">
+      <DependentUpon>bilgileri_duzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="firma_tanimlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firma_tanimlari.Designer.cs">
+      <DependentUpon>firma_tanimlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gelir_gider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gelir_gider.Designer.cs">
+      <DependentUpon>gelir_gider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="genel_raporlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="genel_raporlar.Designer.cs">
+      <DependentUpon>genel_raporlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giris_ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris_ekrani.Designer.cs">
+      <DependentUpon>giris_ekrani.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -63,6 +102,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="izinler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="izinler.Designer.cs">
+      <DependentUpon>izinler.cs</DependentUpon>
+    </Compile>
     <Compile Include="musteri_ekle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +118,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ogrenciDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="personel_tanimlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personel_tanimlari.Designer.cs">
+      <DependentUpon>personel_tanimlari.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,11 +151,29 @@
     <Compile Include="urunler.Designer.cs">
       <DependentUpon>urunler.cs</DependentUpon>
     </Compile>
+    <Compile Include="urun_arama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun_arama.Designer.cs">
+      <DependentUpon>urun_arama.cs</DependentUpon>
+    </Compile>
     <Compile Include="urun_ekle.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="urun_ekle.Designer.cs">
       <DependentUpon>urun_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yenipersonel_kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yenipersonel_kayit.Designer.cs">
+      <DependentUpon>yenipersonel_kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yeni_personel_kayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yeni_personel_kayıt.Designer.cs">
+      <DependentUpon>yeni_personel_kayıt.cs</DependentUpon>
     </Compile>
     <Compile Include="yeni_satis.cs">
       <SubType>Form</SubType>
@@ -112,8 +181,20 @@
     <Compile Include="yeni_satis.Designer.cs">
       <DependentUpon>yeni_satis.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="bilgileri_duzenle.resx">
+      <DependentUpon>bilgileri_duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firma_tanimlari.resx">
+      <DependentUpon>firma_tanimlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gelir_gider.resx">
+      <DependentUpon>gelir_gider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="genel_raporlar.resx">
+      <DependentUpon>genel_raporlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris_ekrani.resx">
+      <DependentUpon>giris_ekrani.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -121,8 +202,14 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="izinler.resx">
+      <DependentUpon>izinler.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="musteri_ekle.resx">
       <DependentUpon>musteri_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personel_tanimlari.resx">
+      <DependentUpon>personel_tanimlari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -132,6 +219,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="satis_islemleri.resx">
       <DependentUpon>satis_islemleri.cs</DependentUpon>
@@ -145,8 +233,17 @@
     <EmbeddedResource Include="urunler.resx">
       <DependentUpon>urunler.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="urun_arama.resx">
+      <DependentUpon>urun_arama.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="urun_ekle.resx">
       <DependentUpon>urun_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yenipersonel_kayit.resx">
+      <DependentUpon>yenipersonel_kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yeni_personel_kayıt.resx">
+      <DependentUpon>yeni_personel_kayıt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="yeni_satis.resx">
       <DependentUpon>yeni_satis.cs</DependentUpon>
@@ -175,6 +272,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

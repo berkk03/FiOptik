@@ -41,7 +41,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(41, 51);
+            this.button1.Location = new System.Drawing.Point(156, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 50);
             this.button1.TabIndex = 0;
@@ -51,43 +51,47 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(250, 290);
+            this.button2.Location = new System.Drawing.Point(365, 324);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 50);
             this.button2.TabIndex = 1;
             this.button2.Text = "Firma Tanımları";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(41, 290);
+            this.button3.Location = new System.Drawing.Point(156, 324);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(150, 50);
             this.button3.TabIndex = 2;
             this.button3.Text = "Personel Tanımları";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(250, 210);
+            this.button4.Location = new System.Drawing.Point(365, 244);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(150, 50);
             this.button4.TabIndex = 3;
             this.button4.Text = "Genel Raporlar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(250, 130);
+            this.button5.Location = new System.Drawing.Point(365, 164);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(150, 50);
             this.button5.TabIndex = 4;
             this.button5.Text = "Ürün Arama";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(41, 210);
+            this.button6.Location = new System.Drawing.Point(156, 244);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(150, 50);
             this.button6.TabIndex = 5;
@@ -97,7 +101,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(250, 51);
+            this.button7.Location = new System.Drawing.Point(365, 85);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(150, 50);
             this.button7.TabIndex = 6;
@@ -107,7 +111,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(41, 130);
+            this.button8.Location = new System.Drawing.Point(156, 164);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(150, 50);
             this.button8.TabIndex = 7;
@@ -117,7 +121,7 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(2, 2);
+            this.button9.Location = new System.Drawing.Point(12, 12);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 8;
@@ -129,7 +133,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(448, 383);
+            this.BackColor = System.Drawing.Color.IndianRed;
+            this.ClientSize = new System.Drawing.Size(684, 461);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);

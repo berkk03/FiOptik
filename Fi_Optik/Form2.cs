@@ -51,5 +51,33 @@ namespace Fi_Optik
             yeni.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            urun_arama yeni = new urun_arama();
+            yeni.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            genel_raporlar ac = new genel_raporlar();
+            ac.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            firma_tanimlari ac = new firma_tanimlari();
+            ac.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            personel_tanimlari pe = new personel_tanimlari();
+            pe.Show();
+            this.Hide();
+        }
     }
 }
